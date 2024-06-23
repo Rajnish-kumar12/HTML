@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html form</title>
+</head>
+
+<body>
+    <h1>Event Registration</h1>
+    <label for="name">Name:</label>
+    <br>
+    <input type="text" id="name" name="username" placeholder="Enter name">
+    <br>
+    <label for="email">Email:</label>
+    <br>
+    <input type="email" id="email" name="useremail" placeholder="Enter your email">
+    <br>
+    <label for="phone">Phone:</label>
+    <br>
+    <input type="tel" id="phone" name="userphone" placeholder="Enter phone number">
+    <br>
+    <label for="occupations">occupations:</label>
+    <br>
+    <select name="useroccupations" id="occupations">
+        <option value="other">Other</option>
+        <option value="employee">employee</option>
+        <option value="businessman">Businessman</option>
+        <option value="teacher">Teacher</option>
+        <option value="Lecturer">Lecturer</option>
+    </select>
+    <br>
+    <fieldset>
+        <legend>Topics of intrest</legend>
+        <label for="html">Html</label>
+        <input type="checkbox" name="checkbox" id="html">
+        <br>
+        <label for="css">css</label>
+        <input type="checkbox" name="checkbox" id="css">
+        <br>
+        <label for="javascript">javascript</label>
+        <input type="checkbox" name="checkbox" id="javascript">
+    </fieldset>
+    <br>
+    <label for="comments">comments:</label>
+    <br>
+    <textarea name="usercomment" id="comments">write comments...</textarea>
+    <input type="button" value="Register">
+</body>
+
+</html>

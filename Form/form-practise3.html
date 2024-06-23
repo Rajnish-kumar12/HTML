@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>complex form</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="username">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="useremail">
+        <label for="Phone">Phone:</label>
+        <input type="tel" id="phone" name="userphone">
+        <label for="dob">Date of birth:</label>
+        <input type="date">
+        <label for="gender">Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="use">Usa</option>
+            <option value="canada">Canada</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>
+            <label for="addressstreet">Address street</label>
+            <input type="text" id="addressstreet" name="address">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city">
+            <label for="state">State</label>
+            <input type="text" id="state" name="state">
+            <label for="zip">Zipcode</label>
+            <input type="text" id="zip" name="zip">
+        </legend>
+    </fieldset>
+    <fieldset>
+        <legend>Other Information</legend>
+        <label for="comment">Comment</label>
+        <textarea name="comment" id="comment"></textarea>
+        <label for="agree">I agree of terms and service</label>
+        <input type="checkbox" id="agree">
+    </fieldset>
+    <input type="button" value="Register">
+</body>
+
+</html>
